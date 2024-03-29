@@ -9,6 +9,9 @@ function Preloader() {
                 <div class="circle"></div>
             </div>
         </div>
+        {/* <div class="progress">
+            <div class="indeterminate"></div>
+        </div> */}
     </div>
 }
 

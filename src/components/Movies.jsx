@@ -8,7 +8,7 @@ function Movies(props) {
             {movies.length ? (
                 movies.map((movie) => <Movie key={movie.imbID} {...movie} />)
             ) : (
-                <div> <h4>No movies found</h4> </div>
+                <div> <h4>Таких фильмов нет :(</h4> </div>
             )}
             {/* {movies.map((movie) => (
                 <Movie key={movies.imdID} {...Movie}/>
